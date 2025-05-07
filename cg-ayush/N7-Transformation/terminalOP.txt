@@ -1,0 +1,172 @@
+mllab22@mllab22:~/23359$ g++ n7-23359.cpp -lglut -lGL -lGLU
+mllab22@mllab22:~/23359$ ./a.out
+input x and y co-ordinates : 100
+100
+input width of square : 50
+1 : Translate
+2 : Rotation Anticlockwise
+3 : Rotation Clockwise
+4 : Reflection X
+5 : Reflection Y
+6 : Reflection Origin
+7 : Reflection X = Y
+Choice : 1
+Enter tx and ty : 20
+20
+Original :
+100 100 1 
+150 100 1 
+150 150 1 
+100 150 1 
+Transform :
+1 0 0 
+0 1 0 
+20 20 1 
+Result :
+120 120 1 
+170 120 1 
+170 170 1 
+120 170 1 
+1 : Translate
+2 : Rotation Anticlockwise
+3 : Rotation Clockwise
+4 : Reflection X
+5 : Reflection Y
+6 : Reflection Origin
+7 : Reflection X = Y
+Choice : 2
+Enter rotation angle : 40
+Original :
+120 120 1 
+170 120 1 
+170 170 1 
+120 170 1 
+Transform :
+0.766272 0.642516 0 
+-0.642516 0.766272 0 
+0 0 1 
+Result :
+14.8506 169.055 1 
+53.1642 201.18 1 
+21.0384 239.494 1 
+-17.2752 207.368 1 
+1 : Translate
+2 : Rotation Anticlockwise
+3 : Rotation Clockwise
+4 : Reflection X
+5 : Reflection Y
+6 : Reflection Origin
+7 : Reflection X = Y
+Choice : 3
+Enter rotation angle : 65
+Original :
+14.8506 169.055 1 
+53.1642 201.18 1 
+21.0384 239.494 1 
+-17.2752 207.368 1 
+Transform :
+0.423139 -0.906065 0 
+0.906065 0.423139 0 
+0 0 1 
+Result :
+159.458 58.078 1 
+204.778 36.9571 1 
+225.899 82.2772 1 
+180.579 103.398 1 
+1 : Translate
+2 : Rotation Anticlockwise
+3 : Rotation Clockwise
+4 : Reflection X
+5 : Reflection Y
+6 : Reflection Origin
+7 : Reflection X = Y
+Choice : 4
+Original :
+159.458 58.078 1 
+204.778 36.9571 1 
+225.899 82.2772 1 
+180.579 103.398 1 
+Transform :
+1 0 0 
+0 -1 0 
+0 0 1 
+Result :
+159.458 -58.078 1 
+204.778 -36.9571 1 
+225.899 -82.2772 1 
+180.579 -103.398 1 
+1 : Translate
+2 : Rotation Anticlockwise
+3 : Rotation Clockwise
+4 : Reflection X
+5 : Reflection Y
+6 : Reflection Origin
+7 : Reflection X = Y
+Choice : 5
+Original :
+159.458 -58.078 1 
+204.778 -36.9571 1 
+225.899 -82.2772 1 
+180.579 -103.398 1 
+Transform :
+-1 0 0 
+0 1 0 
+0 0 1 
+Result :
+-159.458 -58.078 1 
+-204.778 -36.9571 1 
+-225.899 -82.2772 1 
+-180.579 -103.398 1 
+1 : Translate
+2 : Rotation Anticlockwise
+3 : Rotation Clockwise
+4 : Reflection X
+5 : Reflection Y
+6 : Reflection Origin
+7 : Reflection X = Y
+Choice : 6
+Original :
+-159.458 -58.078 1 
+-204.778 -36.9571 1 
+-225.899 -82.2772 1 
+-180.579 -103.398 1 
+Transform :
+-1 0 0 
+0 -1 0 
+0 0 1 
+Result :
+159.458 58.078 1 
+204.778 36.9571 1 
+225.899 82.2772 1 
+180.579 103.398 1 
+1 : Translate
+2 : Rotation Anticlockwise
+3 : Rotation Clockwise
+4 : Reflection X
+5 : Reflection Y
+6 : Reflection Origin
+7 : Reflection X = Y
+Choice : 7
+Original :
+159.458 58.078 1 
+204.778 36.9571 1 
+225.899 82.2772 1 
+180.579 103.398 1 
+Transform :
+0 1 0 
+1 0 0 
+0 0 1 
+Result :
+58.078 159.458 1 
+36.9571 204.778 1 
+82.2772 225.899 1 
+103.398 180.579 1 
+1 : Translate
+2 : Rotation Anticlockwise
+3 : Rotation Clockwise
+4 : Reflection X
+5 : Reflection Y
+6 : Reflection Origin
+7 : Reflection X = Y
+Choice : 
+
